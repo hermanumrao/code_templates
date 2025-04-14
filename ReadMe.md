@@ -5,6 +5,7 @@ ${PROJECT_DESCRIPTION}
 ## Getting Started
 this is a folder full of templates for the ~/Templates
 The ~/Templates directory in Linux is a standard location where you can store template files. When you right-click in a file manager (like Nautilus, Thunar, etc.) and select "Create New Document", the options you see are based on the files present in this ~/Templates directory.
+For more info please visit this [wiki](https://github.com/hermanumrao/code_templates/wiki)
 ### Prerequisites
 
 * [List any prerequisites, e.g., Python 3.x, GCC]
