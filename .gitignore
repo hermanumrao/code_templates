@@ -1,0 +1,17 @@
+# Basic Python .gitignore
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+
+# Basic C++ .gitignore
+*.o
+*.d
+${PROJECT_NAME}
+build/
+
+# Generic
+.DS_Store
+*.swp
+*.log

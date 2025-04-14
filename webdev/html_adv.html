@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="${LANGUAGE_CODE}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="${PAGE_DESCRIPTION}">
+    <meta name="keywords" content="${KEYWORDS}">
+    <meta name="author" content="${AUTHOR}">
+    <title>${PAGE_TITLE}</title>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <meta property="og:title" content="${PAGE_TITLE}">
+    <meta property="og:description" content="${PAGE_DESCRIPTION}">
+    <meta property="og:image" content="path/to/your/og-image.jpg">
+    <meta property="og:url" content="${PAGE_URL}">
+    <meta property="og:type" content="website">
+
+    </head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>${PAGE_HEADING}</h1>
+        <p class="tagline">${SITE_TAGLINE}</p>
+    </header>
+
+    <main>
+        <section id="content">
+            <h2>Section Title</h2>
+            <p>This is the main content area.</p>
+        </section>
+
+        <aside id="sidebar">
+            <h3>Sidebar</h3>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; ${YEAR} ${COPYRIGHT_HOLDER}. All rights reserved.</p>
+        <p><a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    </body>
+</html>
